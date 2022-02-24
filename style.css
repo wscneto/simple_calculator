@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    background: linear-gradient(to right, #67ACE4, #8D75BB, #9E396B);
+}
+
+.calculator{
+    max-width: 400px;
+    margin: 10vh auto;
+    font-weight: 600;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 1em 0.5em;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #E6F4F1;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #003655;
+}
+
+.button{
+    cursor: pointer;
+    border: 1px solid white;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #E6F4F1;
+}
+
+.button:hover{
+    background-color: #C5F8FF;
+    transition: 0.3s ease-in-out;
+}
+
+#equal{
+    background-color: #FFEACE;
+}
+
+#equal:hover{
+    background-color: #C5F8FF;
+    transition: 0.4s ease-in-out;
+}
